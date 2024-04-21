@@ -1,7 +1,12 @@
+import Loader from "components/atoms/Loader";
 import React from "react";
 
 const Home: React.FC = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      <Loader />
+    </div>
+  );
 };
 
 export default Home;
