@@ -51,13 +51,16 @@
     "@emotion/styled": "^11.11.5",
     "@heroicons/react": "2.0.18",
     "@mui/material": "^5.15.15",
+    "dayjs": "^1.11.10",
     "env-cmd": "^10.1.0",
+    "formik": "^2.4.5",
     "minimist": "^1.2.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "^6.22.3",
     "react-spinners": "^0.13.8",
-    "swr": "^2.2.5"
+    "swr": "^2.2.5",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@commitlint/cli": "17.4.2",
