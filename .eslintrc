@@ -1,24 +1,32 @@
+// Version 2
 {
   "env": {
     "browser": true,
     "es2021": true
   },
-  "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint"],
-  "extends": [
-    "plugin:@typescript-eslint/recommended",
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended"
-  ],
-  "rules": {
+	"root": true,
+	"parser": "@typescript-eslint/parser",
+	"plugins": ["@typescript-eslint", "prettier"],
+	"extends": [
+		"eslint:recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:react/recommended",
+		"plugin:react-hooks/recommended",
+		"prettier"
+	],
+	"rules": {
     "@typescript-eslint/ban-ts-comment": "warn",
     "comma-dangle": "off",
     "multiline-ternary": "off",
     "no-use-before-define": "off",
-    "space-before-function-paren": "off",
     "react/prop-types": "off",
-    "react/no-unescaped-entities": "off",
-    "react/display-name": "off",
-    "react/react-in-jsx-scope": "off"
-  }
+    "react/react-in-jsx-scope": "off",
+		"no-console": 1,
+		"prettier/prettier": 2,
+	},
+	"settings": {
+		"react": {
+			"version": "18.2.0"
+		}
+	}
 }
