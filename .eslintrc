@@ -1,9 +1,9 @@
 // Version 2
 {
-  "env": {
-    "browser": true,
-    "es2021": true
-  },
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
 	"root": true,
 	"parser": "@typescript-eslint/parser",
 	"plugins": ["@typescript-eslint", "prettier"],
@@ -15,14 +15,14 @@
 		"prettier"
 	],
 	"rules": {
-    "@typescript-eslint/ban-ts-comment": "warn",
-    "comma-dangle": "off",
-    "multiline-ternary": "off",
-    "no-use-before-define": "off",
-    "react/prop-types": "off",
-    "react/react-in-jsx-scope": "off",
+		"@typescript-eslint/ban-ts-comment": "warn",
+		"comma-dangle": "off",
+		"multiline-ternary": "off",
+		"no-use-before-define": "off",
+		"react/prop-types": "off",
+		"react/react-in-jsx-scope": "off",
 		"no-console": 1,
-		"prettier/prettier": 2,
+		"prettier/prettier": 2
 	},
 	"settings": {
 		"react": {
